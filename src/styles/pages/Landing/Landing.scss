@@ -1,0 +1,34 @@
+@import './Countdown/Countdown.scss';
+@import './Cards/Cards.scss';
+@import './JobOffer/JobOffer.scss';
+@import './Social/Social.scss';
+.Landing{
+    background-color: #27272B;
+    width: 100vw;
+    height: 100vh;
+    padding-top: 5vh;
+    background-image: url('../../../assets/img/background.svg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    overflow: hidden !important;
+}
+
+.Landing-Animated-Background{
+    position: absolute;   
+    width: 100%;
+    height: 85%;
+}
+#AnimationLeft{
+    animation: bounceUp 8s infinite;
+    animation-timing-function:linear;
+}
+#AnimationRight{
+    animation: bounceUp 6s infinite;
+    animation-timing-function:linear;
+}
+@keyframes bounceUp {
+    0% {transform: translateY(0); }
+    50% {transform: translateY(3%);}
+    100% {transform: translateY(0);}
+}

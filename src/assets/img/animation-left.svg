@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="762.073" height="643.048" viewBox="0 0 762.073 643.048">
+  <g id="Group_2861" data-name="Group 2861" transform="translate(-191.441 -143.989)">
+    <g id="Polygon_2" data-name="Polygon 2" transform="matrix(0.788, -0.616, 0.616, 0.788, 925.441, 173.277)" fill="none">
+      <path d="M10,0,20,20H0Z" stroke="none"/>
+      <path d="M 10 4.472129821777344 L 3.236064910888672 18 L 16.76393508911133 18 L 10 4.472129821777344 M 10 0 L 20 20 L 0 20 L 10 0 Z" stroke="none" fill="#707070"/>
+    </g>
+    <g id="Polygon_5" data-name="Polygon 5" transform="matrix(0.788, -0.616, 0.616, 0.788, 191.441, 771.276)" fill="none">
+      <path d="M10,0,20,20H0Z" stroke="none"/>
+      <path d="M 10 4.472129821777344 L 3.236064910888672 18 L 16.76393508911133 18 L 10 4.472129821777344 M 10 0 L 20 20 L 0 20 L 10 0 Z" stroke="none" fill="#707070"/>
+    </g>
+    <g id="Ellipse_149" data-name="Ellipse 149" transform="translate(248.478 143.989)" fill="none" stroke="#707070" stroke-width="2">
+      <circle cx="9" cy="9" r="9" stroke="none"/>
+      <circle cx="9" cy="9" r="8" fill="none"/>
+    </g>
+  </g>
+</svg>

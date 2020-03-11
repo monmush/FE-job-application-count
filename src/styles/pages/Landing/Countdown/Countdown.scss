@@ -1,0 +1,26 @@
+.Countdown{
+    text-align: center;
+    display: block;
+    p{
+        color: #7E8085;
+    }
+}
+.Countdown-Number{
+    span{
+        padding: .8em .6em .8em .6em;
+        margin: 1em 0 .5em 0;
+        font-size: 42px;
+        display: inline-block;
+        font-weight: bold;
+        background-color: #393B44;
+        color: #979B38;
+        @include useShadow($x: 0px, $y: 3px, $b:6px);
+        height: 100px;
+        &:first-of-type{
+            margin-right: .3em;
+        }
+    }
+    p{
+        font-weight: bold;
+    }
+}

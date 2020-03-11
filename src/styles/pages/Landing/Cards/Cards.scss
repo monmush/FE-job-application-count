@@ -1,0 +1,17 @@
+.Cards{
+    text-align: center;
+}
+.Card{
+    padding: 1em 1.5em 1em 1.5em;
+    @include useShadow($x:0px, $y: 10px, $b: 10px);
+    background-color: #393B44;
+    h4{
+        color: #7E8085;
+        font-weight: bold;
+    }
+    p{
+        font-size: 46px;
+        color: #7E8085;
+        font-weight: bold;
+    }
+}
