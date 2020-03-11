@@ -12,7 +12,6 @@ interface Props{
 
 // Cards
 const Cards: React.FC<Props | undefined> = ({data}) => {
-    console.log(data);
     const renderCard = useRenderCard(data)
     return (
     <Row className="Cards" justify='space-around'>

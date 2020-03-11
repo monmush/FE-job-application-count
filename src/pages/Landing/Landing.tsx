@@ -39,7 +39,7 @@ const Landing:React.FC = () => {
             <Social/>
             {data && (
                 <React.Fragment>
-                    <Countdown/>
+                    <Countdown startDate={data.startDate}/>
                     <JobOffer count={data.jobOffer}/>
                     <Cards data={data.statistics}/>}
                 </React.Fragment>
