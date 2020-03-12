@@ -31,7 +31,7 @@ const Card: React.FC<Card> = ({title, count}) => {
 
 //Render card to view
 const useRenderCard = (data:Card[]) => {
-    const renderCard = data && data.map(item => <Card title={item.title} count={item.count}/>)
+    const renderCard = data && data.map((item, id) => <Card key={id} title={item.title} count={item.count}/>)
     return renderCard
 }
 
