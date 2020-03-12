@@ -22,7 +22,6 @@ const Countdown: React.FC<Props> = ({startDate}) => {
     })
 
     useEffect(() => {
-     
         const changeHandler = setInterval(()=>{
             setDiff(prev => prev + 1)
         }, 1000)

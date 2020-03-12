@@ -1,18 +1,13 @@
-//Reset
+//Base
 @import './base/reset.scss';
 @import './base/typography.scss';
-
-//Vendor
-@import './vendors/antd';
 
 //Utils
 @import './utils/variables';
 @import './utils/mixins';
 @import './utils/functions';
 
-//Layout
 //Pages
 @import './pages/Landing/Landing.scss';
 
-//Themes
 
