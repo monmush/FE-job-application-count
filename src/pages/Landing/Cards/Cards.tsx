@@ -9,7 +9,7 @@ interface Props{
     data: Card[]
 }
 
-// Cards
+// Main component - Cards
 const Cards: React.FC<Props | undefined> = ({data}) => {
     const renderCard = useRenderCard(data)
     return (

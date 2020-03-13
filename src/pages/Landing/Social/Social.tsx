@@ -1,10 +1,6 @@
 import React from 'react'
 import {Row, Col} from 'antd'
 
-interface Props {
-    
-}
-
 const Social: React.FC<Props> = () => {
     return (
         <Row className="Social" justify='center'>

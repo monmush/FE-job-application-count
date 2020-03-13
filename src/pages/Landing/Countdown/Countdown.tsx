@@ -6,7 +6,6 @@ interface Props {
     startDate: string
 }
 
-
 const Countdown: React.FC<Props> = ({startDate}) => {
     const start = moment(startDate, 'DD/MM/YYYY HH:mm:ss')
     const [now, setNow] = useState<Moment>()
@@ -30,7 +29,6 @@ const Countdown: React.FC<Props> = ({startDate}) => {
             clearInterval(changeHandler)
         };
     },[])
-
     
     return (
         <Row className="Countdown">
@@ -41,6 +39,7 @@ const Countdown: React.FC<Props> = ({startDate}) => {
         </Row>
     )
 }
+
 const formatResult = (result:number) => {
     let resultToArray = result.toString().split('')
     if(result < 10){
@@ -48,4 +47,5 @@ const formatResult = (result:number) => {
     }
     return resultToArray.map((item, id) => <span key={id}>{item}</span>)
 }
+
 export default Countdown

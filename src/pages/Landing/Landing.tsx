@@ -21,22 +21,24 @@ interface Statistic{
 
 //Main component
 const Landing:React.FC = () => {
-
     const [data, setData] = useState<Statistic | undefined>()
-
-        useEffect(() => {
-            axios.get(process.env.REACT_APP_BASE_URL + 'statistics')
-            .then(({data})=>{
-                setData(data)
-            })
-            .catch(err => console.log(err))
-        }, [])
+    useEffect(() => {
+        axios.get(process.env.REACT_APP_BASE_URL + 'statistics')
+        .then(({data})=>{
+            setData(data)
+        })
+        .catch(err => console.log(err))
+    }, [])
     return (
         <div className="Landing">
             {/* Animation background */}
             <img src={AnimationLeft} alt="AnimationLeft" id="AnimationLeft" className="Landing-Animated-Background"/>
             <img src={AnimationRight} alt="AnimationRight" id="AnimationRight" className="Landing-Animated-Background"/>
+
+            {/* Social media & contact detail */}
             <Social/>
+
+            {/* Main content */}
             {data && (
                 <React.Fragment>
                     <Countdown startDate={data.startDate}/>
